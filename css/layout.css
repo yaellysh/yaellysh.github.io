@@ -569,6 +569,7 @@ fieldset[disabled] .btn-theme {
   	[Header]
 ------------------------------------------------------------------*/
 /* Fixed Top */
+
 .navbar-fixed-top .navbar-collapse {
   max-height: 100%;
 }
@@ -1311,8 +1312,19 @@ fieldset[disabled] .btn-theme {
     [Parallax Content]
 ------------------------------------------------------------------*/
 .parallax-content {
-  padding-top: 220px;
-  padding-bottom: 120px;
+  /* padding-top: 220px;
+  padding-bottom: 120px; */
+  max-width: 100%; 
+  height: auto;
+  object-fit: cover;
+}
+
+.parallax-window {
+  /* padding-top: 220px;
+  padding-bottom: 120px; */
+  max-width: 100%; 
+  height: auto;
+  object-fit: cover;
 }
 
 /*------------------------------------------------------------------
