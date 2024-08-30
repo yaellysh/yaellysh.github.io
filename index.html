@@ -82,66 +82,10 @@
         <!--========== END HEADER ==========-->
 
         <!--========== SLIDER ==========-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <div class="container">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                </ol>
-            </div>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="img-responsive" src="img/port.png" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40"> 
-                                <div style="position: relative;">
-                                    <!-- <button class="image-button" onclick="scrollToSection();" style="border: none; padding: 0; border: none; background: none; cursor: pointer; width: 265px; height: 110px; overflow: hidden; display: inline-block; transform: translate(366%, 282.5%)">
-                                        <img  style="object-fit: cover; display: block;" src="img/verif.png" alt="Verification Image">
-                                    </button> -->
-                    
-
-                                    <!-- JavaScript -->
-                                    <script>
-                                        function scrollToSection() {
-                                            const target = document.getElementById('target-section');
-                                            const start = window.pageYOffset;
-                                            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
-                                            const distance = targetPosition - start;
-                                            const duration = 1500; // Duration in milliseconds
-                                            let startTime = null;
-
-                                            function animateScroll(currentTime) {
-                                                if (startTime === null) startTime = currentTime;
-                                                const timeElapsed = currentTime - startTime;
-                                                const progress = Math.min(timeElapsed / duration, 1); // Normalized progress (0 to 1)
-                                                const easeInOut = progress < 0.5 
-                                                    ? 2 * progress * progress 
-                                                    : -1 + (4 - 2 * progress) * progress;
-                                                window.scrollTo(0, start + distance * easeInOut);
-                                                if (timeElapsed < duration) {
-                                                    requestAnimationFrame(animateScroll);
-                                                }
-                                            }
-
-                                            requestAnimationFrame(animateScroll);
-                                        }
-                                    </script>
-
-                                  </div>
-                                  
-                                
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
+        <div class="item active">
+            <img class="img" src="img/port2.png" alt="Slider Image" style="width: 100%; height: auto; object-fit: cover;">
         </div>
+        
         <!--========== SLIDER ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
